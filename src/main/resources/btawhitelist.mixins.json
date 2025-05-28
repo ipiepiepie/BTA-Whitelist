@@ -1,11 +1,14 @@
 {
     "required": true,
     "minVersion": "0.8",
-    "package": "turniplabs.examplemod.mixin",
+    "package": "xyz.ipiepiepie.whitelist.mixin",
     "compatibilityLevel": "JAVA_8",
     "mixins": [
+
     ],
-    "client": [
+    "server": [
+      "WhitelistCheckMixin",
+      "WhitelistEditMixin"
     ],
     "injectors": {
         "defaultRequire": 1
